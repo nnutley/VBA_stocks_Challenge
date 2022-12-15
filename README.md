@@ -14,9 +14,9 @@
 ### Execution of Code Comparison:
     -Overall, the refactored script's execution time was shorter than the original script. For the original script, for both the 2017 and 2018 data sets, the execution time was about 0.28 seconds. For the refactored script, the 2017 data set was about 0.06 seconds and the 2018 data set was about 0.07 seconds. 
     
-    ![2017 Execution Time](https://github.com/nnutley/VBA_stocks_Challenge/Resources/VBA_Challenge_2017) 
+    ![2017 Execution Time](https://github.com/nnutley/VBA_stocks_Challenge/blob/main/Resources/VBA_Challenge_2017.png)
     
-    ![2018 Execution Time](https://github.com/nnutley/VBA_stocks_Challenge/Resources/VBA_Challenges_2018)
+    ![2018 Execution Time](https://github.com/nnutley/VBA_stocks_Challenge/blob/main/Resources/VBA_Challenge_2018.png)
      
     -One reason that the refactored script ran faster was because there only 3 references to a different worksheets rather than the 4 references in the original script. Eliminating the one reference saved time as the script did not have to analzye that worksheets that additional time[^1]. 
     
