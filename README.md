@@ -12,8 +12,12 @@
     -From the analysis of the green energy stocks, we can see that one stock, RUN, had the most promising performance. This is because between the years 2017 and 2018, this stock had an increase in return and an increase in volume. The increase in return indicates that the stock price was increasing, and while paired with an increase in volume, this also indicates that many people were likely buying this stock, showing that it is likely in an uptrend. There were four stocks that had expecially bad performances, DQ, HASI, SEDG, VSLR. This is beccause between the years 2017 and 2018, these stocks had a decrease in return and an increase in volume. The decrease in return indicates that the stock price was decreasing, and while paired with an increase in volume, this also indicates that many people were selling this stock, showing that is is likely in a downtrend.
 
 ### Execution of Code Comparison:
-    -Overall, the refactored script's execution time was shorter than the original script. For the original script, for both the 2017 and 2018 data sets, the execution time was about 0.28 seconds. For the refactored script, the 2017 data set was about 0.06 seconds ![2017 Execution Time](Resources/VBA_Challenge_2017.png) and the 2018 data set was about 0.07 seconds ![2018 Execution Time](Resources/VBA_Challenge_2018.png). 
+    -Overall, the refactored script's execution time was shorter than the original script. For the original script, for both the 2017 and 2018 data sets, the execution time was about 0.28 seconds. For the refactored script, the 2017 data set was about 0.06 seconds and the 2018 data set was about 0.07 seconds. 
     
+    ![2017 Execution Time](Resources/VBA_Challenge_2017.png) 
+    
+    ![2018 Execution Time](Resources/VBA_Challenge_2018.png)
+     
     -One reason that the refactored script ran faster was because there only 3 references to a different worksheets rather than the 4 references in the original script. Eliminating the one reference saved time as the script did not have to analzye that worksheets that additional time[^1]. 
     
     -Another reason that the refactored script ran faster was because in this script we made a tickerIndex variable (tickerIndex=0) in the beginning of the script and used this in our conditionals rather than a string. For example in the original script, when looking for the total volume for the current ticker the conditional was: 
